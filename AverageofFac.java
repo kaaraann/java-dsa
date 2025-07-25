@@ -11,6 +11,7 @@ class AverageOfFac {
         int count = 0;
 
         System.out.println("Factors of " + num + " are: ");
+        // Logic For factorial Number to find the Average of it.
         for(int i = 1; i <= num; i++) {
             if(num % i == 0) {
                 System.out.print(i + " ");
